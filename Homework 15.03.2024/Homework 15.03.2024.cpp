@@ -17,7 +17,7 @@ void DeleteLastElement(int** ar, int* count);
 int main()
 {
     ////////////////////////////////////////////////////////////////////           Z A D A N I E 1           ///////////////////////////////////////////////////////////////////////////
-	int a = 25;
+    int a = 25;
     int* ptrA = &a;
     int** ptrA2 = &ptrA;
     int*** ptrA3 = &ptrA2;
