@@ -71,7 +71,8 @@ void RandomFillArray(int* ar, unsigned int count)
 
 void PrintArray(int* ar, unsigned int count) 
 {
-	if (ar == nullptr) {
+	if (ar == nullptr) 
+	{
 		cout << "Array is empty...\n";
 		return;
 	}
@@ -111,7 +112,7 @@ void DeleteLastElement(int** ar, int* count)
 	if (*ar != nullptr)
 	{
 		int* temp = new int[size - 1];
-		for (int i = 0; i < size - 1; ++i)
+		for (int i = 0; i < size - 1; i++)
 			temp[i] = (*ar)[i];
 
 		delete[](*ar);
